@@ -6,7 +6,7 @@ var TShirtModel = Backbone.Model.extend({
 
 var TShirtCollection = Backbone.Collection.extend({
   model: TShirtModel,
-  url: 'http://tiny-lasagna-server.herokuapp.com/collections/tshirts'
+  url: 'https://tiny-lasagna-server.herokuapp.com/collections/tshirts'
 });
 
 
